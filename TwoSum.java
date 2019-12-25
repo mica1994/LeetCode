@@ -12,7 +12,7 @@ class TwoSum {
     }
 }
 
-// 一遍哈希法，在进行迭代并将元素插入到表中的同时，检查表中是否已经存在当前元素所对应的目标元素，时间复杂度O(n)，空间复杂度O(n)
+// 一遍哈希法，在进行迭代并将元素插入到表中的同时，检查是否已经存在当前元素所对应的目标元素，时间复杂度O(n)，空间复杂度O(n)
 class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
